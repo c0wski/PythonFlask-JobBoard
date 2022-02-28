@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bulma.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/app.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.cs">
+    <title>Job Board</title>
+  </head>
+  <body>
+    <div class="container top">
+      <div class="content">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- templates/_marcos.html -->
+<!-- show_job -->
+<div class="card adjust-height">
+  <header class="card-header">
+    <p class="card-header-title">
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+    </div>
+  </div>
+</div>
